@@ -48,7 +48,7 @@ Test that split behaves correctly on error.
   (use either `hg split <rs>` or `hg split --rev <rs>`, not both)
   [255]
 
-Test exitting a split early leaves you on the same commit
+Test exiting a split early leaves you on the same commit
   $ hg log -r . -T {node}
   d86136f6dbffaed724ce39c03f4028178355246d (no-eol)
   $ hg split << EOF
